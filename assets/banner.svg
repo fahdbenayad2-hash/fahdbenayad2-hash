@@ -1,23 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="285" viewBox="0 0 1060 285" role="img" aria-label="FAHD BENAYAD | AI agents automation and full stack products">
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071110"/><stop offset="1" stop-color="#0b291d"/></linearGradient><linearGradient id="line" x2="1" y2="0"><stop stop-color="#163f2e"/><stop offset=".5" stop-color="#55ff9b"/><stop offset="1" stop-color="#1d4731"/></linearGradient>
-<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M 30 0 H 0 V 30" fill="none" stroke="#254335" opacity=".23"/></pattern>
-<filter id="glow"><feGaussianBlur stdDeviation="4"/></filter></defs>
-<rect x="1" y="1" width="1058" height="283" rx="22" fill="url(#bg)" stroke="#2e6549" stroke-width="2"/>
-<rect x="2" y="2" width="1056" height="281" rx="21" fill="url(#grid)"/>
-<path d="M24 50H1030" stroke="#2b5343" stroke-width="1"/>
-<circle cx="34" cy="27" r="5" fill="#ff6058"/><circle cx="54" cy="27" r="5" fill="#ffbe2f"/><circle cx="74" cy="27" r="5" fill="#27c93f"/>
-<text x="100" y="31" fill="#92bfa6" font-family="monospace" font-size="13">~/fahdbenayad2-hash/profile</text>
-<text x="45" y="125" fill="#f0fff7" font-family="Arial,DejaVu Sans,sans-serif" font-size="54" font-weight="800" letter-spacing="5">FAHD BENAYAD</text>
-<text x="47" y="159" fill="#48f799" font-family="monospace" font-size="18">&gt; Building useful systems, one project at a time.</text>
-<text x="47" y="194" fill="#c0d8ca" font-family="Arial,sans-serif" font-size="19">AI Agents  /  Automation  /  Full-stack Products</text>
-<rect x="45" y="220" width="118" height="31" rx="9" fill="#163d2b" stroke="#318452"/><text x="60" y="241" fill="#e2fff0" font-family="monospace" font-size="12">01  BUILD</text>
-<rect x="174" y="220" width="118" height="31" rx="9" fill="#103322" stroke="#318452"/><text x="190" y="241" fill="#e2fff0" font-family="monospace" font-size="12">02  SHIP</text>
-<rect x="303" y="220" width="132" height="31" rx="9" fill="#103322" stroke="#318452"/><text x="317" y="241" fill="#e2fff0" font-family="monospace" font-size="12">03  IMPROVE</text>
-<circle cx="880" cy="148" r="91" fill="#0e291e" stroke="#346c4f" stroke-width="2"/>
-<circle cx="880" cy="148" r="76" fill="#0a2319" stroke="#4af69c" stroke-width="2" stroke-dasharray="12 8"><animateTransform attributeName="transform" type="rotate" from="0 880 148" to="360 880 148" dur="26s" repeatCount="indefinite"/></circle>
-<circle cx="880" cy="148" r="61" fill="#102e22" stroke="#1e543a" stroke-width="2"/>
-<path d="M859 123l-25 25 25 25m44-50l25 25-25 25m-3-59l-36 68" fill="none" stroke="#4af69c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M968 148h62M730 148h60M880 57V11M880 239v34" stroke="#2ac978" stroke-width="2" opacity=".6"/>
-<circle cx="968" cy="148" r="5" fill="#4af69c"><animate attributeName="opacity" values="0.4;1;.4" dur="3s" repeatCount="indefinite"/></circle>
-<text x="47" y="274" fill="#96b3a3" font-size="12" font-family="monospace">ALGERIA  •  OPEN SOURCE  •  REAL PROJECTS  •  LEARNING IN PUBLIC</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="260" viewBox="0 0 1060 260" role="img" aria-label="FAHD BENAYAD — AI Agents · Automation · Full-stack Products">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#071110"/>
+      <stop offset="1" stop-color="#0b291d"/>
+    </linearGradient>
+    <linearGradient id="accent" x2="1" y2="0">
+      <stop stop-color="#163f2e"/>
+      <stop offset=".5" stop-color="#55ff9b"/>
+      <stop offset="1" stop-color="#1d4731"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 H 0 V 28" fill="none" stroke="#254335" opacity=".22"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1058" height="258" rx="18" fill="url(#bg)" stroke="#2e6549" stroke-width="2"/>
+  <rect x="2" y="2" width="1056" height="256" rx="17" fill="url(#grid)"/>
+  <!-- title bar -->
+  <path d="M20 46H1040" stroke="#2b5343" stroke-width="1"/>
+  <circle cx="32" cy="24" r="5" fill="#ff6058"/>
+  <circle cx="52" cy="24" r="5" fill="#ffbe2f"/>
+  <circle cx="72" cy="24" r="5" fill="#27c93f"/>
+  <text x="96" y="28" fill="#92bfa6" font-family="monospace" font-size="12">~/fahdbenayad2-hash/profile</text>
+  <!-- main identity -->
+  <text x="40" y="110" fill="#f0fff7" font-family="Arial,DejaVu Sans,sans-serif" font-size="48" font-weight="800" letter-spacing="4">FAHD BENAYAD</text>
+  <text x="42" y="142" fill="#48f799" font-family="monospace" font-size="16">&gt; Building useful systems, one project at a time.</text>
+  <text x="42" y="172" fill="#b8d0c4" font-family="Arial,sans-serif" font-size="16">AI Agents  ·  Automation  ·  Full-stack Products</text>
+  <!-- action chips -->
+  <rect x="40" y="196" width="108" height="28" rx="8" fill="#163d2b" stroke="#318452"/>
+  <text x="54" y="214" fill="#e2fff0" font-family="monospace" font-size="11">01  BUILD</text>
+  <rect x="158" y="196" width="100" height="28" rx="8" fill="#103322" stroke="#318452"/>
+  <text x="174" y="214" fill="#e2fff0" font-family="monospace" font-size="11">02  SHIP</text>
+  <rect x="268" y="196" width="120" height="28" rx="8" fill="#103322" stroke="#318452"/>
+  <text x="282" y="214" fill="#e2fff0" font-family="monospace" font-size="11">03  IMPROVE</text>
+  <!-- orbital mark -->
+  <circle cx="900" cy="130" r="78" fill="#0e291e" stroke="#346c4f" stroke-width="2"/>
+  <circle cx="900" cy="130" r="64" fill="#0a2319" stroke="#4af69c" stroke-width="1.8" stroke-dasharray="10 7">
+    <animateTransform attributeName="transform" type="rotate" from="0 900 130" to="360 900 130" dur="28s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="130" r="50" fill="#102e22" stroke="#1e543a" stroke-width="1.5"/>
+  <path d="M882 108l-20 22 20 22m36-44l20 22-20 22m-2-50l-30 58" fill="none" stroke="#4af69c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="978" cy="130" r="4" fill="#4af69c">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="40" y="248" fill="#8fa39c" font-size="11" font-family="monospace">ALGERIA  ·  OPEN SOURCE  ·  REAL PROJECTS  ·  LEARNING IN PUBLIC</text>
 </svg>

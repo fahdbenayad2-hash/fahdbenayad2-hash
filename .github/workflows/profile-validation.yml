@@ -1,0 +1,44 @@
+name: Validate profile V2
+
+on:
+  push:
+    branches: [profile-elite-v2]
+    paths:
+      - 'scripts/render_stats.py'
+      - 'tests/validate_profile.py'
+      - '.github/workflows/profile-validation.yml'
+      - 'assets/avatar.jpg'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/render_stats.py'
+      - 'tests/validate_profile.py'
+      - '.github/workflows/profile-validation.yml'
+      - 'assets/banner.svg'
+      - 'README.md'
+      - 'assets/avatar.jpg'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Pillow
+        run: python -m pip install 'Pillow>=10,<12'
+      - name: Validate Python syntax
+        run: python -m py_compile scripts/render_stats.py tests/validate_profile.py
+      - name: Render from real GitHub data
+        env:
+          GH_STATS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PROFILE_LOGIN: fahdbenayad2-hash
+        run: python scripts/render_stats.py
+      - name: Validate SVGs, animation fallback and profile
+        run: python tests/validate_profile.py
