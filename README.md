@@ -4,9 +4,9 @@
 
 <br/>
 
-<img src="./assets/avatar.jpg" alt="Illustrated portrait of Fahd Benayad" width="170" />
+<img src="./assets/avatar.jpg" alt="Illustrated portrait of Fahd Benayad" width="160" />
 
-### AI • AUTOMATION • PRODUCT ENGINEERING
+### AI · AUTOMATION · PRODUCT ENGINEERING
 
 **بلاصتي ميش هنا** — *The journey is bigger than the starting point.*
 
@@ -21,16 +21,16 @@
 
 ### `fahd@github ~ $ whoami`
 
-<img src="./assets/terminal.svg" alt="Terminal ASCII portrait and actual public GitHub metrics" width="100%" />
+<img src="./assets/terminal.svg" alt="Terminal ASCII portrait and verified public GitHub metrics" width="100%" />
 
 ### `fahd@github ~ $ ls ./projects`
 
-| Project | Real-world product |
+| Project | What it does |
 | :--- | :--- |
-| **[T-Flow](https://github.com/fahdbenayad2-hash/T-Flow)** | Arabic-first COD e-commerce operations, orders, call center, delivery, and analytics. |
-| **[DZ Commerce Intelligence](https://github.com/fahdbenayad2-hash/dz-dashboard)** | Business intelligence for order tracking, reports and risk monitoring. |
-| **[KHOTWA / خُطوة](https://github.com/fahdbenayad2-hash/khotwa)** | Personal daily focus and English learning system. [Live app](https://fahdbenayad2-hash.github.io/khotwa/). |
-| **[AI Agent](https://github.com/fahdbenayad2-hash/aiagent)** | AI agent experiments and learning. |
+| **[T-Flow](https://github.com/fahdbenayad2-hash/T-Flow)** | Arabic-first COD e-commerce operations: orders, call center, delivery tracking, analytics, and team roles. Built with TanStack Start, Supabase, and a Google Sheets proxy. |
+| **[DZ Commerce Intelligence](https://github.com/fahdbenayad2-hash/dz-dashboard)** | Internal business intelligence for order & shipping data from Google Sheets. Edge-served dashboard with secure, keyless Google access. |
+| **[KHOTWA / خُطوة](https://github.com/fahdbenayad2-hash/khotwa)** | Personal daily focus + English learning system. Local-first PWA with IndexedDB. [Live app](https://fahdbenayad2-hash.github.io/khotwa/). |
+| **[AI Agent](https://github.com/fahdbenayad2-hash/aiagent)** | Experiments with AI agents and automation tooling. |
 
 ### `fahd@github ~ $ cat about.txt`
 
@@ -45,4 +45,6 @@ I build tools to **save time, simplify complicated workflows, and make ideas rea
 
 ---
 
-<div align="center"><sub>All displayed activity metrics are fetched from GitHub. Automatic daily refresh via GitHub Actions. No invented counts.</sub></div>
+<div align="center">
+<sub>All displayed activity metrics are fetched from GitHub. Automatic daily refresh via GitHub Actions. No invented counts.</sub>
+</div>
