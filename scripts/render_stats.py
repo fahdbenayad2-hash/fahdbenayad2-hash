@@ -206,9 +206,6 @@ def ascii_portrait():
     picture = ImageOps.autocontrast(picture, cutoff=1)
     picture = picture.resize((64, 40), Image.Resampling.LANCZOS)
     picture = ImageEnhance.Contrast(picture).enhance(1.25)
-    # Density-aware palette for terminal look
-    palette = " .'`^\",:;Il!i~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
-    # Simpler high-contrast set for clean rendering
     palette = " .:-=+*#%@"
     lines = []
     for y in range(40):
@@ -231,10 +228,10 @@ def terminal_svg(stats, total):
     ]
 
     for i, line in enumerate(ascii_portrait()):
-        out.append(txt(40, 132 + i + i * 8.4, line, 8.0, "#6fa58b"))
+        out.append(txt(40, 132 + i * 8.4, line, 8.0, "#6fa58b"))
 
     items = [
-        ("PUBLIC REPOSITORIES", stats["repos"]),
+        ( pe"PUBLIC REPOSITORIES", stats["repos"]),
         ("STARS RECEIVED", stats["stars"]),
         ("FOLLOWERS", stats["followers"]),
         ("YEARLY CONTRIBUTIONS", total if total is not None else "N/A"),
