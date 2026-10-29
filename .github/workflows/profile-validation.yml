@@ -7,7 +7,7 @@ on:
       - 'scripts/render_stats.py'
       - 'tests/validate_profile.py'
       - '.github/workflows/profile-validation.yml'
-      - 'assets/avatar.jpg'
+      - 'assets/avatar-hd.png'
   pull_request:
     branches: [main]
     paths:
@@ -16,7 +16,7 @@ on:
       - '.github/workflows/profile-validation.yml'
       - 'assets/banner.svg'
       - 'README.md'
-      - 'assets/avatar.jpg'
+      - 'assets/avatar-hd.png'
   workflow_dispatch:
 
 permissions:

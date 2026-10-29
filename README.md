@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="./assets/avatar.jpg" alt="Illustrated portrait of Fahd Benayad" width="160" />
+<img src="./assets/avatar-hd.png" alt="High-resolution illustrated portrait of Fahd Benayad" width="160" />
 
 ### AI · AUTOMATION · PRODUCT ENGINEERING
 

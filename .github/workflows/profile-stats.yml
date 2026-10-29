@@ -9,7 +9,7 @@ on:
     paths:
       - 'scripts/render_stats.py'
       - '.github/workflows/profile-stats.yml'
-      - 'assets/avatar.jpg'
+      - 'assets/avatar-hd.png'
 
 permissions:
   contents: write

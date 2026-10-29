@@ -59,7 +59,9 @@ def main():
         parse(path)
     check_heatmap(parse("contributions.svg"))
     check_terminal(parse("terminal.svg"))
-    with Image.open(ASSETS / "avatar.jpg") as im:
+    with Image.open(ASSETS / "avatar-hd.png") as im:
+        assert im.width >= 256 and im.height >= 256, "Avatar resolution too low"
+        assert im.mode in ("RGBA", "P"), "Avatar requires transparent background"
         im.verify()
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     for expected in ("بلاصتي ميش هنا", "T-Flow", "dz-dashboard", "khotwa", "contributions.svg", "terminal.svg"):
