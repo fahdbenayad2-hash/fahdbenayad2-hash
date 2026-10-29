@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="505" viewBox="0 0 1060 505" role="img">
+<rect x="1" y="1" width="1058" height="503" rx="22" fill="#0b1110" stroke="#274c3a" stroke-width="2"/>
+<circle cx="29" cy="31" r="5.5" fill="#ff6058"/><circle cx="48" cy="31" r="5.5" fill="#ffbe2f"/><circle cx="67" cy="31" r="5.5" fill="#27c93f"/>
+<text x="140" y="37" fill="#3cf18f" font-family="monospace" font-size="16">fahd@github ~ $ whoami</text>
+<text x="28" y="82" fill="#ecfaf4" font-family="monospace" font-weight="bold" font-size="16">IDENTITY // TERMINAL PORTRAIT</text>
+<rect x="22" y="101" width="492" height="376" rx="12" fill="#0a1512" stroke="#234c38"/><rect x="528" y="101" width="511" height="376" rx="12" fill="#0a1512" stroke="#234c38"/>
+<text x="40" y="123" fill="#3cf18f" font-family="monospace" font-size="12">&gt; image_to_ascii --portrait fahd</text>
+<text x="549" y="123" fill="#3cf18f" font-family="monospace" font-size="12">&gt; github_activity --verified</text>
+<circle cx="266" cy="279" r="114" fill="none" stroke="#285540" stroke-dasharray="6 5" stroke-width="2"/>
+<text x="266" y="275" fill="#507f66" font-family="monospace" font-size="24" text-anchor="middle">PORTRAIT</text><text x="266" y="309" fill="#3cf18f" font-family="monospace" font-size="15" text-anchor="middle">SYNC PENDING...</text>
+<text x="550" y="195" fill="#3cf18f" font-family="monospace" font-size="25">LIVE SYNC PENDING</text>
+<text x="550" y="227" fill="#9eb1ab" font-family="monospace" font-size="14">Verified stats will appear on first run.</text>
+<text x="550" y="296" fill="#9eb1ab" font-family="monospace" font-size="15">PUBLIC REPOSITORIES</text><text x="1010" y="296" text-anchor="end" fill="#ecfaf4" font-family="monospace" font-size="22">--</text>
+<text x="550" y="351" fill="#9eb1ab" font-family="monospace" font-size="15">STARS RECEIVED</text><text x="1010" y="351" text-anchor="end" fill="#ecfaf4" font-family="monospace" font-size="22">--</text>
+<text x="550" y="406" fill="#9eb1ab" font-family="monospace" font-size="15">FOLLOWERS</text><text x="1010" y="406" text-anchor="end" fill="#ecfaf4" font-family="monospace" font-size="22">--</text>
+<text x="550" y="452" fill="#3cf18f" font-family="monospace" font-size="11">SOURCE: GITHUB  /  NO FABRICATED COUNTS</text>
+<rect x="1003" y="440" width="9" height="15" fill="#3cf18f"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+<text x="43" y="466" fill="#3cf18f" font-family="monospace" font-size="10">FAHD BENAYAD // AI + AUTOMATION</text>
+</svg>
