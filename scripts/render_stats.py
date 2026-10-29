@@ -179,8 +179,10 @@ def calendar_svg(counts, total):
             delay = i * 0.016 + j * 0.005
             out.append(
                 f'<rect x="{x:.1f}" y="{y:.1f}" rx="2.2" width="12.2" height="12.2" '
-                f'fill="{PALETTE[level]}" opacity="0">'
-                f'<animate attributeName="opacity" values="0;1" dur="0.28s" begin="{delay:.3f}s" fill="freeze"/>'
+                f'fill="{PALETTE[level]}" opacity="1">'
+                f'<animate attributeName="opacity" values="0;0;1;1" '
+                f'keyTimes="0;{max(0.001, delay / 1.25):.3f};{min(0.99, (delay + 0.28) / 1.25):.3f};1" '
+                f'dur="1.25s" begin="0s" fill="freeze"/>'
                 f"</rect>"
             )
 
