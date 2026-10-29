@@ -132,7 +132,7 @@ def txt(x, y, val, size=16, color=WHITE, bold=False, anchor="start"):
 
 def frame(w, h, command):
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height=" inter{h}" viewBox="0 0 {w} {h}" role="img">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img">',
         f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="18" fill="{BG}" stroke="{FRAME_STROKE}" stroke-width="2"/>',
     ]
     for i, c in enumerate(["#ff6058", "#ffbe2f", "#27c93f"]):
