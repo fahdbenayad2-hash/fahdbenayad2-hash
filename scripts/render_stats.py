@@ -204,7 +204,7 @@ def calendar_svg(counts, total):
 
 def ascii_portrait():
     """Higher-contrast ASCII from the illustrated portrait. Preserves recognizable features."""
-    picture = Image.open(ASSETS / "avatar.jpg").convert("L")
+    picture = Image.open(ASSETS / "avatar-hd.png").convert("L")
     picture = ImageOps.autocontrast(picture, cutoff=1)
     picture = picture.resize((64, 40), Image.Resampling.LANCZOS)
     picture = ImageEnhance.Contrast(picture).enhance(1.25)
