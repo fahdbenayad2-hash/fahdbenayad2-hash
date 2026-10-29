@@ -41,7 +41,7 @@ def graph_contributions():
     cal = d["data"]["user"]["contributionsCollection"]["contributionCalendar"]
     counts = {
         day["date"]: int(day["contributionCount"])
-        for week in cal["weeks"]
+        for week in cal["weeks"]]
         for day in week["contributionDays"]
     }
     if len(counts) < 240:
@@ -231,7 +231,7 @@ def terminal_svg(stats, total):
         out.append(txt(40, 132 + i * 8.4, line, 8.0, "#6fa58b"))
 
     items = [
-        ( pe"PUBLIC REPOSITORIES", stats["repos"]),
+        ("PUBLIC REPOSITORIES", stats["repos"]),
         ("STARS RECEIVED", stats["stars"]),
         ("FOLLOWERS", stats["followers"]),
         ("YEARLY CONTRIBUTIONS", total if total is not None else "N/A"),
